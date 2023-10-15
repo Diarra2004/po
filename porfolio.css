@@ -1,0 +1,525 @@
+/* Style pour les écrans de petite taille (par exemple, smartphones) */
+@media screen and (max-width: 768px) {
+    body {
+        top: 0; /* Réinitialise la valeur de top */
+        font-size: 15px;
+        background-image: url(images/image_6483441\ \(14\).JPG);
+        background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        color: beige;
+    }
+    #a-propos{
+        top: 0; /* Réinitialise la valeur de top */
+        font-size: 20px;
+        background-color: #F3AE6D;
+        background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .image1{
+        background-image: url(images/image_6483441\ \(2\).JPG);
+        width: 150px;
+        height: 150px;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        top: 20px;
+        text-align: left;
+
+    }
+    #accueil{
+        background-image: url(images/image_6483441\ \(20\).JPG);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        position: fixed;
+        background-color: #F3AE6D;
+
+    }
+    #projets{
+        background-color: #F3AE6D;
+        padding-top:300px;
+    } 
+    #project .projet{
+        top: 500px;
+        display: flex;
+    }
+    .clearfix {
+        background-repeat: no-repeat;
+        
+    }
+    .moi{
+        background-image: url(images/image_50381825.JPG);
+        width: 150px;
+        height: 150px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: 50px;
+        border-radius: 50%;
+    }
+    .imageprojet .img-fluid{
+        background-size: 100%;
+        max-width: 300px;
+        max-height: 300px;
+        text-align: right;
+        position: relative;
+        display: inline;
+        
+        
+    }
+    .img-fluid{
+        max-width: 300px;
+        max-height: 300px;
+        display: inline;
+        
+    }
+    .presentation {
+        border-color: #0c0c0c;
+        width: 300px;
+        border: 1px solid;
+        margin: 0 auto;
+        padding: 20px; 
+    }
+    
+    footer a {
+        color: #0b0b0b; 
+        text-decoration: none; 
+        margin: 10px; 
+    }
+    
+
+}
+
+/* Style pour les écrans de taille moyenne (par exemple, tablettes) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   
+        body {
+            top: 0; /* Réinitialise la valeur de top */
+            font-size: 20px;
+            background-image: url(images/image_6483441\ \(3\).JPG);
+            background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            color: #ccc;
+        }
+        #a-propos{
+            top: 0; /* Réinitialise la valeur de top */
+            font-size: 20px;
+            background-color: #dfdaa0;
+            background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+    
+        }
+        #a-propos.compétences{
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .image1{
+            background-image: url(images/image_50381825.JPG);
+            width: 250px;
+            height: 250px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            top: 20px;
+            text-align: left;
+        }
+        #contact{
+            position: fixed;
+    
+        }
+        #projets{
+            background-color: #dfdaa0;
+            padding-top:500px;
+        }
+        .clearfix {
+            background-repeat: no-repeat;
+            
+            
+        }
+        .moi{
+            background-image: url(images/image_6483441\ \(1\).JPG);
+            width: 200px;
+            height: 200px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            top: 20px;
+       
+        }
+        .imageprojet .img-fluid{
+            background-size: 100%;
+            max-width: 300px;
+            max-height: 300px;
+            text-align: right;
+            position: relative;
+            display: inline;
+            height: 150px;
+            width: 250px;
+            
+        }
+        .img-fluid{
+            max-width: 300px;
+            max-height: 300px;
+            display: inline;
+            
+        }
+        .presentation {
+            border-color: #0c0c0c;
+            width: 400px;
+            border: 1px solid;
+            margin: 0 auto; 
+            padding: 20px; 
+            color: #212020;
+        }
+        
+        footer a {
+            color: #0b0b0b; 
+            text-decoration: none; 
+            margin: 10px; 
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            background-size: 100%;
+        }
+   
+}
+
+/* Styles pour les grands écrans */
+@media screen and (min-width: 1025px) {
+    
+    
+    
+    #accueil {
+        top: 0; /* Réinitialise la valeur de top */
+        font-size: 20px;
+        background-image: url(images/image_6483441\ \(19\).JPG);
+        background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    #a-propos{
+        top: 0; /* Réinitialise la valeur de top */
+        font-size: 20px;
+        background-image: url(images/image_6483441\ \(17\).JPG);
+        background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .image1{
+        background-image: url(images/image_67166209.JPG);
+        width: 250px;
+        height: 250px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: 20px;
+        text-align: left;
+        border-radius: 50%;
+    }
+    #contact{
+        position: fixed;
+
+    }
+    #projets{
+        background-color: rgb(225, 145, 98);
+        background-size: 100%;
+        padding-top:200px;
+    }
+    .imageprojet .img-fluid{
+        background-size: 100%;
+        width: 300px;
+        height: 200px;
+        text-align: right;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    .img-fluid{
+        width: 300px;
+        height: 200px;
+        display: inline;
+        
+    }
+    .moi{
+        background-image: url(images/image_6483441\ \(2\).JPG);
+        width: 500px;
+        height: 500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: 50px;
+        border-radius: 50%;
+        padding: 20px;
+    }
+    .presentation {
+        border-color: #0c0c0c;
+        width: 600px;
+        border: 1px solid;
+        margin: 0 auto; /* Ajout de cette ligne pour centrer horizontalement */
+        padding: 20px; /* Ajout de ce padding pour espacer le contenu du bord */
+    }
+    
+
+
+    #projets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .imageprojet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .imageprojet img {
+        max-width: 400px;
+        max-height: 400px;
+        margin: 10px;
+      }
+      
+      .competences {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .competences div {
+        margin-bottom: 20px;
+      }
+      
+      .competences canvas {
+       
+        width: 50px;
+        height: 50px;
+      }
+      
+      
+}
+    /* Styles pour la section de contact */
+#contact {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Styles pour le formulaire */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le bouton Envoyer */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+    .container{
+        text-align: center;
+        display: block;
+    }
+    .nav{
+        color: black;
+        }
+
+.projet h3{
+    color: #555;
+    font-style: italic;
+    top:50px;
+}
+
+header .nav {
+    background-color: #0c0c0c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header {
+    background-color: black;
+    position: fixed;
+}
+.container{
+    position: fixed;
+    top: 100px;
+    font-style: italic;
+    align-items: center;
+}
+.nom{
+    color: #cf5518;
+}
+
+footer {
+    background-color: #0c0c0c;
+    position: fixed;
+    top:auto;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+footer a {
+    color: #0b0b0b; 
+    text-decoration: none; 
+    margin: 10px; 
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    background-size: 100%;
+}
+/* Styles pour le header et la navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 50px;
+    text-align: center;
+    top:100px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Styles pour les boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Styles pour les projets */
+.projet {
+    margin-bottom: 40px;
+}
+
+/* Styles pour le pied de page */
+.pieddepage {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 22%;
+    padding: 0 18px;
+    font-size: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.willy h1{
+
+
+    background-color: transparent;
+    text-align: center;
+    color: #2f3030;
+    padding: 10px;
+}    
+.rotating-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.compétences {
+    text-align: center;
+  }
+  
+  .compétences div {
+    margin-bottom: 20px;
+  }
+  
+  .compétences canvas {
+    max-width: 100%;
+  }
+  
+
+
+
+

@@ -1,0 +1,218 @@
+/* Style pour les écrans de petite taille (par exemple, smartphones) */
+@media screen and (max-width: 768px) {
+    body {
+        top: 0; /* Réinitialise la valeur de top */
+        font-size: 15px;
+        background-image: url(images/image_6483441\ \(5\).JPG);
+        background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        color: beige;
+    }
+    #contact{
+        position: fixed;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form-group{
+        margin-right: 20px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+
+}
+
+/* Style pour les écrans de taille moyenne (par exemple, tablettes) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   
+        body {
+            top: 0; /* Réinitialise la valeur de top */
+            font-size: 20px;
+            background-image: url(images/image_6483441\ \(3\).JPG);
+            background-size: 100% 100%; /* Ajuste la taille pour couvrir 100% de la largeur et de la hauteur */
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+   
+}
+
+/* Styles pour les grands écrans */
+@media screen and (min-width: 1025px) {
+    
+    body{
+        background-image: url(images/image_6483441\ \(9\).JPG);
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    #contact{
+        position: fixed;
+
+    }
+    /* Styles pour la section de contact */
+#contact {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Styles pour le formulaire */
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style pour le bouton Envoyer */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+    .container{
+        text-align: center;
+        display: block;
+    }
+    
+}
+
+header .nav {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header {
+    
+    position: fixed;
+}
+.container{
+    position: fixed;
+    top: 100px;
+    font-style: italic;
+    align-items: center;
+}
+.nom{
+    color: #cf5518;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer a {
+    color: #0b0b0b; /* Couleur des liens dans le pied de page */
+    text-decoration: none; /* Supprime les soulignements des liens */
+    margin: 10px; /* Espacement entre les liens */
+}
+/* Styles pour le header et la navigation */
+header {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 50px;
+    text-align: center;
+    top:100px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Styles pour les boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Styles pour les projets */
+.projet {
+    margin-bottom: 40px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    background-size: 100%;
+}
+.cv{
+    color: #0b0b0b;
+}
+

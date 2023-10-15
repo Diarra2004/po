@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="porfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À Propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        
+        <div class="willy">
+            <marquee behavior="scroll "direction="right">
+               <h1>Bienvenue sur mon Portfolio</h1>
+              
+            </marquee>
+        </div>
+        <div class="presentation"><p>Bonjour, je suis Yaye Diarratoulah Sissoko, une étudiante en deuxième 
+            année d'informatique à l'EPSI Paris, spécialisée en développement web.  </p>
+        </div>
+        <a href="#projets" class="btn">Voir mes projets</a>
+        
+        <div class="moi"></div>
+    </section>
+
+    <section id="a-propos">
+        <h2>À Propos de Moi</h2>
+        <p> 
+            Je suis une jeune Sénégalaise. J'ai obtenu mon diplôme de baccalauréat scientifique en 2022. 
+            J'ai toujours aimé les sciences, tout ce qui est expérimental. Je suis passionnée par la technologie, 
+            l'innovation et la création de contenu. Il y a trois ans, je n'avais aucune notion dans le développement 
+            web. L'EPSI Paris m'a permis de me développer en 6 mois grâce à une formation accélérée, et me voilà 
+            aujourd'hui capable de développer des sites web avec des langages tels que HTML, CSS, JavaScript, 
+            ainsi que des langages de base de données comme PHP.
+        </p>
+        
+            <div class="compétences">
+                <h3>Mes comptétences en informatique</h3><br>
+                <h5>Developpement</h5>
+                    <div style="width: 80%; max-width: 400px; margin: 0 auto;">
+                    <canvas id="devChart"></canvas>
+                        
+            
+                <h5>Marketing digital</h5>
+                    <div style="width: 80%; max-width: 400px; margin: 0 auto;">
+                        <canvas id="marketingChart"></canvas>
+                    </div>
+            </div>
+        
+           
+    
+    </section>
+
+    <section id="projets">
+        <h2>Mes Projets réalisés</h2>
+            <p>Durant ma première année d'études en informatique, j'ai suivi une formation accélérée, 
+                acquérant des compétences en HTML, CSS, Python, ainsi que MySQL et PHP. 
+                J'ai concrétisé ces compétences en créant SmartBike, un site d'e-commerce pour présenter 
+                des vélos et gérer des commandes. 
+                Cette expérience m'a poussé à poursuivre ma passion pour le développement web et à relever de 
+                nouveaux défis.
+                </p>
+        <div class="projet">
+            <h3>SmartBike</h3>
+            <div class="imageprojet"> 
+                <img src="images/Capture d'écran 2023-10-11 210302.png" alt="" class="img-fluid">
+                <img src="images/Capture d'écran 2023-10-11 210336.png" alt="" class="img-fluid">
+
+                
+
+          
+            </div>
+
+        </div>
+
+        <div class="projet">
+            <h3>E-reinsertion</h3>
+                <p>Au début de ma deuxiéme année d'études en informatique, pendant de notre semaine d'intégrtation, on a demandé
+                de présenter un projet de notre choix pour réduire les inégalité du métier numérique. Cependant, mes camarades
+                et moi, avons eu l'idée de créer un site qui pour aider les anciens détenues. En effet, ils sont souvent rejetés
+                par la société et donc e-reinsertion à pour but de les former dans le métier de l'informatique
+                et de les accompagner jusqu'a leur reinsertion dans la société.
+                </p>
+            <div class="clearfix">
+               <div class="imageprojet"> 
+                    <img src="images/Capture d'écran 2023-10-09 210927.png" class="img-fluid" alt="...">
+                    <img src="images/Capture d'écran 2023-10-09 211001.png" class="img-fluid" alt="...">
+               </div> 
+            
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+        
+    
+
+    
+
+    <script src="portefolio.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+      
+</body>        
+</html>
